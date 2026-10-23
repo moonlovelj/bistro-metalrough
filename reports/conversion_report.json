@@ -1,0 +1,3364 @@
+{
+  "source_hashes": {
+    "bistro.gltf": "c0972d6cd032c1aecb1ad609291a60d124975cd405097212c29de806851de2bb",
+    "bistro.bin": "5fb11a1d61aeb2537197aa97833ff950638c9d42451ee4fafbc9550f03918faa",
+    "bistro-anim.bin": "285d49eeaa58fb453c34bf7c6ffbeae65c6d77e8b706cb1a00db1736bca31b78"
+  },
+  "workflow": "core metallic-roughness",
+  "algorithm": "Khronos spec/gloss to metal/rough approximation; linear RGB; dielectric F0=0.04",
+  "materials_converted": 234,
+  "emissive_materials_fixed": [
+    {
+      "index": 55,
+      "original": [
+        40,
+        40,
+        40
+      ],
+      "strength": 40
+    },
+    {
+      "index": 130,
+      "original": [
+        40,
+        40,
+        40
+      ],
+      "strength": 40
+    },
+    {
+      "index": 213,
+      "original": [
+        30,
+        30,
+        30
+      ],
+      "strength": 30
+    },
+    {
+      "index": 216,
+      "original": [
+        100,
+        100,
+        100
+      ],
+      "strength": 100
+    },
+    {
+      "index": 222,
+      "original": [
+        9.4,
+        10,
+        0.04
+      ],
+      "strength": 10
+    },
+    {
+      "index": 223,
+      "original": [
+        12.4,
+        1.5,
+        12.8
+      ],
+      "strength": 12.8
+    },
+    {
+      "index": 224,
+      "original": [
+        8,
+        0.13,
+        0.13
+      ],
+      "strength": 8
+    },
+    {
+      "index": 225,
+      "original": [
+        0,
+        11.4,
+        0.52
+      ],
+      "strength": 11.4
+    },
+    {
+      "index": 226,
+      "original": [
+        20,
+        0.8,
+        0
+      ],
+      "strength": 20
+    },
+    {
+      "index": 227,
+      "original": [
+        0,
+        4,
+        9
+      ],
+      "strength": 9
+    },
+    {
+      "index": 228,
+      "original": [
+        6.4,
+        5.1,
+        3.8
+      ],
+      "strength": 6.4
+    },
+    {
+      "index": 229,
+      "original": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "strength": 2.5
+    },
+    {
+      "index": 231,
+      "original": [
+        10,
+        10,
+        7
+      ],
+      "strength": 10
+    },
+    {
+      "index": 251,
+      "original": [
+        8,
+        6.7,
+        3
+      ],
+      "strength": 8
+    }
+  ],
+  "baked_materials": [
+    {
+      "index": 0,
+      "name": "LMBR_0000002_Mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_000.png",
+      "metallicRoughness": "textures/metallicRoughness_000.png"
+    },
+    {
+      "index": 1,
+      "name": "LMBR_0000003_noname",
+      "size": [
+        2560,
+        2560
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_001.png",
+      "metallicRoughness": "textures/metallicRoughness_001.png"
+    },
+    {
+      "index": 2,
+      "name": "LMBR_0000007_Fabric",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_002.png",
+      "metallicRoughness": "textures/metallicRoughness_002.png"
+    },
+    {
+      "index": 3,
+      "name": "LMBR_0000006_Beams",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_003.png",
+      "metallicRoughness": "textures/metallicRoughness_003.png"
+    },
+    {
+      "index": 4,
+      "name": "LMBR_000000b_Plaster",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.03814697265625,
+        0.1797473132610321
+      ],
+      "baseColor": "textures/baseColor_004.png",
+      "metallicRoughness": "textures/metallicRoughness_004.png"
+    },
+    {
+      "index": 5,
+      "name": "LMBR_000000a_Concrete",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0.05887215957045555
+      ],
+      "baseColor": "textures/baseColor_005.png",
+      "metallicRoughness": "textures/metallicRoughness_005.png"
+    },
+    {
+      "index": 6,
+      "name": "LMBR_0000010_concrete",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0.016737356781959534,
+        0.07362841069698334
+      ],
+      "baseColor": "textures/baseColor_006.png",
+      "metallicRoughness": "textures/metallicRoughness_006.png"
+    },
+    {
+      "index": 7,
+      "name": "LMBR_000000f_trims",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_007.png",
+      "metallicRoughness": "textures/metallicRoughness_007.png"
+    },
+    {
+      "index": 8,
+      "name": "LMBR_000000e_ornament",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0.9001188278198242
+      ],
+      "baseColor": "textures/baseColor_008.png",
+      "metallicRoughness": "textures/metallicRoughness_008.png"
+    },
+    {
+      "index": 9,
+      "name": "LMBR_0000011_blue_wood",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_009.png",
+      "metallicRoughness": "textures/metallicRoughness_009.png"
+    },
+    {
+      "index": 11,
+      "name": "LMBR_0000015_concrete_smooth_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_011.png",
+      "metallicRoughness": "textures/metallicRoughness_011.png"
+    },
+    {
+      "index": 12,
+      "name": "LMBR_000001a_wood_painted_green_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_012.png",
+      "metallicRoughness": "textures/metallicRoughness_012.png"
+    },
+    {
+      "index": 13,
+      "name": "LMBR_000001b_roofing_shingle_grey_01",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_013.png",
+      "metallicRoughness": "textures/metallicRoughness_013.png"
+    },
+    {
+      "index": 15,
+      "name": "LMBR_000001e_forge_windows_01",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_015.png",
+      "metallicRoughness": "textures/metallicRoughness_015.png"
+    },
+    {
+      "index": 16,
+      "name": "LMBR_000001f_concrete_smooth_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.02688877284526825,
+        0.13871505856513977
+      ],
+      "baseColor": "textures/baseColor_016.png",
+      "metallicRoughness": "textures/metallicRoughness_016.png"
+    },
+    {
+      "index": 17,
+      "name": "LMBR_0000027_curtains_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_017.png",
+      "metallicRoughness": "textures/metallicRoughness_017.png"
+    },
+    {
+      "index": 18,
+      "name": "LMBR_000002b_awning_fabric_cian",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_018.png",
+      "metallicRoughness": "textures/metallicRoughness_018.png"
+    },
+    {
+      "index": 19,
+      "name": "LMBR_0000030_doors",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_019.png",
+      "metallicRoughness": "textures/metallicRoughness_019.png"
+    },
+    {
+      "index": 21,
+      "name": "LMBR_0000017_concrete_grooved_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_021.png",
+      "metallicRoughness": "textures/metallicRoughness_021.png"
+    },
+    {
+      "index": 22,
+      "name": "LMBR_0000023_brick_large_white_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.023653730750083923,
+        0.30213144421577454
+      ],
+      "baseColor": "textures/baseColor_022.png",
+      "metallicRoughness": "textures/metallicRoughness_022.png"
+    },
+    {
+      "index": 23,
+      "name": "LMBR_0000044_Concrete_Smooth",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_023.png",
+      "metallicRoughness": "textures/metallicRoughness_023.png"
+    },
+    {
+      "index": 24,
+      "name": "LMBR_0000045_Concrete_Striped",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_024.png",
+      "metallicRoughness": "textures/metallicRoughness_024.png"
+    },
+    {
+      "index": 25,
+      "name": "LMBR_0000043_Concrete",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.002547353506088257,
+        0.8787474036216736
+      ],
+      "baseColor": "textures/baseColor_025.png",
+      "metallicRoughness": "textures/metallicRoughness_025.png"
+    },
+    {
+      "index": 26,
+      "name": "LMBR_0000046_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_026.png",
+      "metallicRoughness": "textures/metallicRoughness_026.png"
+    },
+    {
+      "index": 27,
+      "name": "LMBR_0000063_Plastic_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.6308070421218872,
+        0.7067007422447205
+      ],
+      "baseColor": "textures/baseColor_027.png",
+      "metallicRoughness": "textures/metallicRoughness_027.png"
+    },
+    {
+      "index": 28,
+      "name": "LMBR_0000057_Grain_Metal_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_028.png",
+      "metallicRoughness": "textures/metallicRoughness_028.png"
+    },
+    {
+      "index": 29,
+      "name": "LMBR_000004b_Concrete_Yellow",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_029.png",
+      "metallicRoughness": "textures/metallicRoughness_029.png"
+    },
+    {
+      "index": 30,
+      "name": "LMBR_000004c_Concrete_Grooved_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_030.png",
+      "metallicRoughness": "textures/metallicRoughness_030.png"
+    },
+    {
+      "index": 32,
+      "name": "LMBR_000004a_Concrete_Smooth_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.0437173992395401,
+        0.10910071432590485
+      ],
+      "baseColor": "textures/baseColor_032.png",
+      "metallicRoughness": "textures/metallicRoughness_032.png"
+    },
+    {
+      "index": 33,
+      "name": "LMBR_0000056_Roofing_Shingle_01",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_033.png",
+      "metallicRoughness": "textures/metallicRoughness_033.png"
+    },
+    {
+      "index": 34,
+      "name": "LMBR_0000049_Concrete_Plaster",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_034.png",
+      "metallicRoughness": "textures/metallicRoughness_034.png"
+    },
+    {
+      "index": 35,
+      "name": "LMBR_000004d_Roofing_Shingle_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_035.png",
+      "metallicRoughness": "textures/metallicRoughness_035.png"
+    },
+    {
+      "index": 36,
+      "name": "LMBR_0000055_Wood_Painted_Flat_Grey_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_036.png",
+      "metallicRoughness": "textures/metallicRoughness_036.png"
+    },
+    {
+      "index": 37,
+      "name": "LMBR_0000054_Trim_Cornice",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0.015285983681678772,
+        1
+      ],
+      "baseColor": "textures/baseColor_037.png",
+      "metallicRoughness": "textures/metallicRoughness_037.png"
+    },
+    {
+      "index": 38,
+      "name": "LMBR_000004e_Wood_painted_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.618884801864624,
+        0.7454490661621094
+      ],
+      "baseColor": "textures/baseColor_038.png",
+      "metallicRoughness": "textures/metallicRoughness_038.png"
+    },
+    {
+      "index": 39,
+      "name": "LMBR_000005e_Concrete_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_039.png",
+      "metallicRoughness": "textures/metallicRoughness_039.png"
+    },
+    {
+      "index": 41,
+      "name": "LMBR_000004f_Wiindows_Curtains_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_041.png",
+      "metallicRoughness": "textures/metallicRoughness_041.png"
+    },
+    {
+      "index": 42,
+      "name": "LMBR_000005f_Decals",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.015639886260032654,
+        1
+      ],
+      "baseColor": "textures/baseColor_042.png",
+      "metallicRoughness": "textures/metallicRoughness_042.png"
+    },
+    {
+      "index": 43,
+      "name": "LMBR_0000060_Decal_Bottomdirt",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.013924390077590942,
+        1
+      ],
+      "baseColor": "textures/baseColor_043.png",
+      "metallicRoughness": "textures/metallicRoughness_043.png"
+    },
+    {
+      "index": 44,
+      "name": "LMBR_0000061_Decal_Crack",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0.30653634667396545,
+        1
+      ],
+      "baseColor": "textures/baseColor_044.png",
+      "metallicRoughness": "textures/metallicRoughness_044.png"
+    },
+    {
+      "index": 45,
+      "name": "LMBR_0000062_Metal_Pipe",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_045.png",
+      "metallicRoughness": "textures/metallicRoughness_045.png"
+    },
+    {
+      "index": 46,
+      "name": "LMBR_0000058_Wood_Polished_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_046.png",
+      "metallicRoughness": "textures/metallicRoughness_046.png"
+    },
+    {
+      "index": 47,
+      "name": "LMBR_0000068_focus",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_047.png",
+      "metallicRoughness": "textures/metallicRoughness_047.png"
+    },
+    {
+      "index": 48,
+      "name": "LMBR_0000074_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9869562387466431,
+        1
+      ],
+      "baseColor": "textures/baseColor_048.png",
+      "metallicRoughness": "textures/metallicRoughness_048.png"
+    },
+    {
+      "index": 50,
+      "name": "LMBR_0000067_focus_ornament",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_050.png",
+      "metallicRoughness": "textures/metallicRoughness_050.png"
+    },
+    {
+      "index": 51,
+      "name": "LMBR_000006c_bistro_main_door",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_051.png",
+      "metallicRoughness": "textures/metallicRoughness_051.png"
+    },
+    {
+      "index": 52,
+      "name": "LMBR_0000070_concrete_grooved",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_052.png",
+      "metallicRoughness": "textures/metallicRoughness_052.png"
+    },
+    {
+      "index": 55,
+      "name": "LMBR_000006b_bulb_light",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0.17891675233840942,
+        1
+      ],
+      "baseColor": "textures/baseColor_055.png",
+      "metallicRoughness": "textures/metallicRoughness_055.png"
+    },
+    {
+      "index": 56,
+      "name": "LMBR_0000066_wood_painted_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_056.png",
+      "metallicRoughness": "textures/metallicRoughness_056.png"
+    },
+    {
+      "index": 57,
+      "name": "LMBR_0000071_wood_painted_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_057.png",
+      "metallicRoughness": "textures/metallicRoughness_057.png"
+    },
+    {
+      "index": 58,
+      "name": "LMBR_0000072_Painted_wood",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_058.png",
+      "metallicRoughness": "textures/metallicRoughness_058.png"
+    },
+    {
+      "index": 59,
+      "name": "LMBR_000006d_concrete_a",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_059.png",
+      "metallicRoughness": "textures/metallicRoughness_059.png"
+    },
+    {
+      "index": 60,
+      "name": "LMBR_0000073_Side_Letters",
+      "size": [
+        2048,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_060.png",
+      "metallicRoughness": "textures/metallicRoughness_060.png"
+    },
+    {
+      "index": 61,
+      "name": "LMBR_0000024_brick_large_beige_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_061.png",
+      "metallicRoughness": "textures/metallicRoughness_061.png"
+    },
+    {
+      "index": 62,
+      "name": "LMBR_0000022_brick_small_red_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_062.png",
+      "metallicRoughness": "textures/metallicRoughness_062.png"
+    },
+    {
+      "index": 64,
+      "name": "LMBR_0000038_room_interior",
+      "size": [
+        1024,
+        512
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_064.png",
+      "metallicRoughness": "textures/metallicRoughness_064.png"
+    },
+    {
+      "index": 65,
+      "name": "LMBR_0000014_concrete_plaster_grey_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.029109977185726166,
+        0.06861630827188492
+      ],
+      "baseColor": "textures/baseColor_065.png",
+      "metallicRoughness": "textures/metallicRoughness_065.png"
+    },
+    {
+      "index": 67,
+      "name": "LMBR_0000026_wood_painted_grey_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_067.png",
+      "metallicRoughness": "textures/metallicRoughness_067.png"
+    },
+    {
+      "index": 68,
+      "name": "LMBR_0000029_roofing_metal_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_068.png",
+      "metallicRoughness": "textures/metallicRoughness_068.png"
+    },
+    {
+      "index": 69,
+      "name": "LMBR_000002c_awning_beams_10",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_069.png",
+      "metallicRoughness": "textures/metallicRoughness_069.png"
+    },
+    {
+      "index": 70,
+      "name": "LMBR_0000031_buildings_boulangerie",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_070.png",
+      "metallicRoughness": "textures/metallicRoughness_070.png"
+    },
+    {
+      "index": 71,
+      "name": "LMBR_0000033_awning_fabric_red",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_071.png",
+      "metallicRoughness": "textures/metallicRoughness_071.png"
+    },
+    {
+      "index": 72,
+      "name": "LMBR_0000036_frosted_glass",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9884100556373596,
+        0.9884100556373596
+      ],
+      "baseColor": "textures/baseColor_072.png",
+      "metallicRoughness": "textures/metallicRoughness_072.png"
+    },
+    {
+      "index": 73,
+      "name": "LMBR_0000021_metal_clean_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9948093891143799,
+        1
+      ],
+      "baseColor": "textures/baseColor_073.png",
+      "metallicRoughness": "textures/metallicRoughness_073.png"
+    },
+    {
+      "index": 74,
+      "name": "LMBR_000002a_wood_painted_cian_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_074.png",
+      "metallicRoughness": "textures/metallicRoughness_074.png"
+    },
+    {
+      "index": 75,
+      "name": "LMBR_0000032_buildings_details",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_075.png",
+      "metallicRoughness": "textures/metallicRoughness_075.png"
+    },
+    {
+      "index": 76,
+      "name": "LMBR_0000037_edge_decals",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_076.png",
+      "metallicRoughness": "textures/metallicRoughness_076.png"
+    },
+    {
+      "index": 77,
+      "name": "LMBR_0000039_roofing_shingle_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_077.png",
+      "metallicRoughness": "textures/metallicRoughness_077.png"
+    },
+    {
+      "index": 78,
+      "name": "LMBR_000003e_details_dark",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_078.png",
+      "metallicRoughness": "textures/metallicRoughness_078.png"
+    },
+    {
+      "index": 79,
+      "name": "LMBR_000002f_bronze_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_079.png",
+      "metallicRoughness": "textures/metallicRoughness_079.png"
+    },
+    {
+      "index": 80,
+      "name": "LMBR_000003f_concrete_white",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_080.png",
+      "metallicRoughness": "textures/metallicRoughness_080.png"
+    },
+    {
+      "index": 81,
+      "name": "LMBR_000002d_wood_painted_red_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.419767290353775,
+        0.6031734943389893
+      ],
+      "baseColor": "textures/baseColor_081.png",
+      "metallicRoughness": "textures/metallicRoughness_081.png"
+    },
+    {
+      "index": 82,
+      "name": "LMBR_0000034_wood_painted_red_bright",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.042756810784339905,
+        0.1453634798526764
+      ],
+      "baseColor": "textures/baseColor_082.png",
+      "metallicRoughness": "textures/metallicRoughness_082.png"
+    },
+    {
+      "index": 83,
+      "name": "LMBR_0000035_books_covers",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_083.png",
+      "metallicRoughness": "textures/metallicRoughness_083.png"
+    },
+    {
+      "index": 84,
+      "name": "LMBR_000003c_Concrete_smooth_blend_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_084.png",
+      "metallicRoughness": "textures/metallicRoughness_084.png"
+    },
+    {
+      "index": 85,
+      "name": "LMBR_000003d_Wood_painted_green_blend",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_085.png",
+      "metallicRoughness": "textures/metallicRoughness_085.png"
+    },
+    {
+      "index": 86,
+      "name": "LMBR_000003b_Brick_Large_blend_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_086.png",
+      "metallicRoughness": "textures/metallicRoughness_086.png"
+    },
+    {
+      "index": 87,
+      "name": "LMBR_000003a_Brick_Large_blend_01",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_087.png",
+      "metallicRoughness": "textures/metallicRoughness_087.png"
+    },
+    {
+      "index": 88,
+      "name": "LMBR_0000082_Mesh",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_088.png",
+      "metallicRoughness": "textures/metallicRoughness_088.png"
+    },
+    {
+      "index": 89,
+      "name": "LMBR_0000085_Mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_089.png",
+      "metallicRoughness": "textures/metallicRoughness_089.png"
+    },
+    {
+      "index": 90,
+      "name": "LMBR_0000088_NapkinHolder_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_090.png",
+      "metallicRoughness": "textures/metallicRoughness_090.png"
+    },
+    {
+      "index": 91,
+      "name": "LMBR_000008d_Paris_LiquorBottle_01_Glass_Wine",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0.8692881464958191,
+        0.8692881464958191
+      ],
+      "baseColor": "textures/baseColor_091.png",
+      "metallicRoughness": "textures/metallicRoughness_091.png"
+    },
+    {
+      "index": 92,
+      "name": "LMBR_000008b_Paris_LiquorBottle_01_Caps",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_092.png",
+      "metallicRoughness": "textures/metallicRoughness_092.png"
+    },
+    {
+      "index": 93,
+      "name": "LMBR_000008c_Paris_LiquorBottle_01_Labels",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0.9849890470504761
+      ],
+      "baseColor": "textures/baseColor_093.png",
+      "metallicRoughness": "textures/metallicRoughness_093.png"
+    },
+    {
+      "index": 94,
+      "name": "LMBR_0000094_Mesh",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_094.png",
+      "metallicRoughness": "textures/metallicRoughness_094.png"
+    },
+    {
+      "index": 95,
+      "name": "LMBR_0000097_mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_095.png",
+      "metallicRoughness": "textures/metallicRoughness_095.png"
+    },
+    {
+      "index": 96,
+      "name": "LMBR_000009a_mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_096.png",
+      "metallicRoughness": "textures/metallicRoughness_096.png"
+    },
+    {
+      "index": 97,
+      "name": "LMBR_000009d_mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0.9999998211860657
+      ],
+      "baseColor": "textures/baseColor_097.png",
+      "metallicRoughness": "textures/metallicRoughness_097.png"
+    },
+    {
+      "index": 99,
+      "name": "LMBR_00000a1_Mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0.990765392780304
+      ],
+      "baseColor": "textures/baseColor_099.png",
+      "metallicRoughness": "textures/metallicRoughness_099.png"
+    },
+    {
+      "index": 100,
+      "name": "LMBR_00000a4_branches",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_100.png",
+      "metallicRoughness": "textures/metallicRoughness_100.png"
+    },
+    {
+      "index": 101,
+      "name": "LMBR_00000a5_leaf_a",
+      "size": [
+        256,
+        256
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_101.png",
+      "metallicRoughness": "textures/metallicRoughness_101.png"
+    },
+    {
+      "index": 102,
+      "name": "LMBR_00000a6_leaf_b",
+      "size": [
+        256,
+        256
+      ],
+      "metallic_range": [
+        0.016840919852256775,
+        0.42970800399780273
+      ],
+      "baseColor": "textures/baseColor_102.png",
+      "metallicRoughness": "textures/metallicRoughness_102.png"
+    },
+    {
+      "index": 103,
+      "name": "LMBR_00000aa_Leaves",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_103.png",
+      "metallicRoughness": "textures/metallicRoughness_103.png"
+    },
+    {
+      "index": 104,
+      "name": "LMBR_00000a9_Bark",
+      "size": [
+        256,
+        1024
+      ],
+      "metallic_range": [
+        0.04327110946178436,
+        0.7937522530555725
+      ],
+      "baseColor": "textures/baseColor_104.png",
+      "metallicRoughness": "textures/metallicRoughness_104.png"
+    },
+    {
+      "index": 105,
+      "name": "LMBR_00000ad_Trunk",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_105.png",
+      "metallicRoughness": "textures/metallicRoughness_105.png"
+    },
+    {
+      "index": 106,
+      "name": "LMBR_00000b0_Branches",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.057650916278362274,
+        0.9823398590087891
+      ],
+      "baseColor": "textures/baseColor_106.png",
+      "metallicRoughness": "textures/metallicRoughness_106.png"
+    },
+    {
+      "index": 107,
+      "name": "LMBR_00000ae_Green_Leaves",
+      "size": [
+        512,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_107.png",
+      "metallicRoughness": "textures/metallicRoughness_107.png"
+    },
+    {
+      "index": 108,
+      "name": "LMBR_00000af_Orange_Leaves",
+      "size": [
+        512,
+        1024
+      ],
+      "metallic_range": [
+        0.016329437494277954,
+        0.557000994682312
+      ],
+      "baseColor": "textures/baseColor_108.png",
+      "metallicRoughness": "textures/metallicRoughness_108.png"
+    },
+    {
+      "index": 109,
+      "name": "LMBR_00000b2_Paris_flowers",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_109.png",
+      "metallicRoughness": "textures/metallicRoughness_109.png"
+    },
+    {
+      "index": 110,
+      "name": "LMBR_00000b3_Foliage",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_110.png",
+      "metallicRoughness": "textures/metallicRoughness_110.png"
+    },
+    {
+      "index": 111,
+      "name": "LMBR_00000b6_Mesh",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_111.png",
+      "metallicRoughness": "textures/metallicRoughness_111.png"
+    },
+    {
+      "index": 112,
+      "name": "LMBR_00000b9_mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_112.png",
+      "metallicRoughness": "textures/metallicRoughness_112.png"
+    },
+    {
+      "index": 113,
+      "name": "LMBR_00000bc_mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_113.png",
+      "metallicRoughness": "textures/metallicRoughness_113.png"
+    },
+    {
+      "index": 114,
+      "name": "LMBR_00000bf_Mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_114.png",
+      "metallicRoughness": "textures/metallicRoughness_114.png"
+    },
+    {
+      "index": 115,
+      "name": "LMBR_00000c2_vespa",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_115.png",
+      "metallicRoughness": "textures/metallicRoughness_115.png"
+    },
+    {
+      "index": 116,
+      "name": "LMBR_00000c7_wheel_rim",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_116.png",
+      "metallicRoughness": "textures/metallicRoughness_116.png"
+    },
+    {
+      "index": 117,
+      "name": "LMBR_00000c6_tire",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_117.png",
+      "metallicRoughness": "textures/metallicRoughness_117.png"
+    },
+    {
+      "index": 119,
+      "name": "LMBR_00000c4_odometer",
+      "size": [
+        512,
+        256
+      ],
+      "metallic_range": [
+        0.006942451000213623,
+        0.9912874102592468
+      ],
+      "baseColor": "textures/baseColor_119.png",
+      "metallicRoughness": "textures/metallicRoughness_119.png"
+    },
+    {
+      "index": 120,
+      "name": "LMBR_00000c5_odometer_glass",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0.21479278802871704
+      ],
+      "baseColor": "textures/baseColor_120.png",
+      "metallicRoughness": "textures/metallicRoughness_120.png"
+    },
+    {
+      "index": 121,
+      "name": "LMBR_00000c9_paris_doormat_01",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_121.png",
+      "metallicRoughness": "textures/metallicRoughness_121.png"
+    },
+    {
+      "index": 122,
+      "name": "LMBR_0000028_brick_small_red_02",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_122.png",
+      "metallicRoughness": "textures/metallicRoughness_122.png"
+    },
+    {
+      "index": 123,
+      "name": "LMBR_00000cb_glass_ornament",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0.40913617610931396,
+        1
+      ],
+      "baseColor": "textures/baseColor_123.png",
+      "metallicRoughness": "textures/metallicRoughness_123.png"
+    },
+    {
+      "index": 124,
+      "name": "LMBR_00000ce_fixtures",
+      "size": [
+        256,
+        128
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_124.png",
+      "metallicRoughness": "textures/metallicRoughness_124.png"
+    },
+    {
+      "index": 125,
+      "name": "LMBR_00000d7_ElectricBox_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_125.png",
+      "metallicRoughness": "textures/metallicRoughness_125.png"
+    },
+    {
+      "index": 126,
+      "name": "LMBR_00000db_Plastic_blue",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_126.png",
+      "metallicRoughness": "textures/metallicRoughness_126.png"
+    },
+    {
+      "index": 127,
+      "name": "LMBR_00000da_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_127.png",
+      "metallicRoughness": "textures/metallicRoughness_127.png"
+    },
+    {
+      "index": 128,
+      "name": "LMBR_00000dc_Plastic_Dark",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_128.png",
+      "metallicRoughness": "textures/metallicRoughness_128.png"
+    },
+    {
+      "index": 129,
+      "name": "LMBR_00000e0_main",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_129.png",
+      "metallicRoughness": "textures/metallicRoughness_129.png"
+    },
+    {
+      "index": 133,
+      "name": "LMBR_00000e6_mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_133.png",
+      "metallicRoughness": "textures/metallicRoughness_133.png"
+    },
+    {
+      "index": 134,
+      "name": "LMBR_00000e9_mesh",
+      "size": [
+        4096,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_134.png",
+      "metallicRoughness": "textures/metallicRoughness_134.png"
+    },
+    {
+      "index": 135,
+      "name": "LMBR_00000dd_Plastic",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_135.png",
+      "metallicRoughness": "textures/metallicRoughness_135.png"
+    },
+    {
+      "index": 136,
+      "name": "LMBR_00000ee_Paris_LiquorBottle_01_Glass_Wine",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_136.png",
+      "metallicRoughness": "textures/metallicRoughness_136.png"
+    },
+    {
+      "index": 137,
+      "name": "LMBR_00000ec_Paris_LiquorBottle_01_Caps",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_137.png",
+      "metallicRoughness": "textures/metallicRoughness_137.png"
+    },
+    {
+      "index": 138,
+      "name": "LMBR_00000ed_Paris_LiquorBottle_01_Labels",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0.9799836277961731
+      ],
+      "baseColor": "textures/baseColor_138.png",
+      "metallicRoughness": "textures/metallicRoughness_138.png"
+    },
+    {
+      "index": 139,
+      "name": "LMBR_00000ef_Paris_LiquorBottle_01_Glass",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0.9333109855651855,
+        0.9333109855651855
+      ],
+      "baseColor": "textures/baseColor_139.png",
+      "metallicRoughness": "textures/metallicRoughness_139.png"
+    },
+    {
+      "index": 140,
+      "name": "LMBR_00000f2_Paris_LiquorBottle_04_Glass",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_140.png",
+      "metallicRoughness": "textures/metallicRoughness_140.png"
+    },
+    {
+      "index": 141,
+      "name": "LMBR_00000f0_Paris_LiquorBottle_02_Glass",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_141.png",
+      "metallicRoughness": "textures/metallicRoughness_141.png"
+    },
+    {
+      "index": 142,
+      "name": "LMBR_00000f1_Paris_LiquorBottle_03_Glass",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0.8805379271507263,
+        0.8805379271507263
+      ],
+      "baseColor": "textures/baseColor_142.png",
+      "metallicRoughness": "textures/metallicRoughness_142.png"
+    },
+    {
+      "index": 143,
+      "name": "LMBR_00000f5_Metal_Worn_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9999998807907104,
+        1
+      ],
+      "baseColor": "textures/baseColor_143.png",
+      "metallicRoughness": "textures/metallicRoughness_143.png"
+    },
+    {
+      "index": 144,
+      "name": "LMBR_00000fe_Label",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_144.png",
+      "metallicRoughness": "textures/metallicRoughness_144.png"
+    },
+    {
+      "index": 146,
+      "name": "LMBR_00000fc_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9904053211212158,
+        1
+      ],
+      "baseColor": "textures/baseColor_146.png",
+      "metallicRoughness": "textures/metallicRoughness_146.png"
+    },
+    {
+      "index": 148,
+      "name": "LMBR_0000102_Paris_Paintings_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_148.png",
+      "metallicRoughness": "textures/metallicRoughness_148.png"
+    },
+    {
+      "index": 149,
+      "name": "LMBR_0000101_Paris_Painting_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_149.png",
+      "metallicRoughness": "textures/metallicRoughness_149.png"
+    },
+    {
+      "index": 150,
+      "name": "LMBR_0000106_Ceramic",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.0015757977962493896,
+        0.0015757977962493896
+      ],
+      "baseColor": "textures/baseColor_150.png",
+      "metallicRoughness": "textures/metallicRoughness_150.png"
+    },
+    {
+      "index": 151,
+      "name": "LMBR_0000107_Details",
+      "size": [
+        512,
+        256
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_151.png",
+      "metallicRoughness": "textures/metallicRoughness_151.png"
+    },
+    {
+      "index": 152,
+      "name": "LMBR_000010a_NapkinHolder_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_152.png",
+      "metallicRoughness": "textures/metallicRoughness_152.png"
+    },
+    {
+      "index": 154,
+      "name": "LMBR_0000110_chrome",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9999998211860657,
+        0.9999998211860657
+      ],
+      "baseColor": "textures/baseColor_154.png",
+      "metallicRoughness": "textures/metallicRoughness_154.png"
+    },
+    {
+      "index": 155,
+      "name": "LMBR_0000111_details",
+      "size": [
+        1024,
+        512
+      ],
+      "metallic_range": [
+        0.8640502095222473,
+        0.8640502095222473
+      ],
+      "baseColor": "textures/baseColor_155.png",
+      "metallicRoughness": "textures/metallicRoughness_155.png"
+    },
+    {
+      "index": 156,
+      "name": "LMBR_0000114_Mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_156.png",
+      "metallicRoughness": "textures/metallicRoughness_156.png"
+    },
+    {
+      "index": 157,
+      "name": "LMBR_0000117_Mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_157.png",
+      "metallicRoughness": "textures/metallicRoughness_157.png"
+    },
+    {
+      "index": 158,
+      "name": "LMBR_000011a_paris_beer_tap_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_158.png",
+      "metallicRoughness": "textures/metallicRoughness_158.png"
+    },
+    {
+      "index": 160,
+      "name": "LMBR_000011d_Mesh",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_160.png",
+      "metallicRoughness": "textures/metallicRoughness_160.png"
+    },
+    {
+      "index": 161,
+      "name": "LMBR_0000120_Paris_cashregister_A",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_161.png",
+      "metallicRoughness": "textures/metallicRoughness_161.png"
+    },
+    {
+      "index": 162,
+      "name": "LMBR_0000121_Paris_cashregister_Buttons",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_162.png",
+      "metallicRoughness": "textures/metallicRoughness_162.png"
+    },
+    {
+      "index": 164,
+      "name": "LMBR_0000125_Metal_Worn_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9999998807907104,
+        1
+      ],
+      "baseColor": "textures/baseColor_164.png",
+      "metallicRoughness": "textures/metallicRoughness_164.png"
+    },
+    {
+      "index": 165,
+      "name": "LMBR_0000126_Wood_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0.2720847725868225
+      ],
+      "baseColor": "textures/baseColor_165.png",
+      "metallicRoughness": "textures/metallicRoughness_165.png"
+    },
+    {
+      "index": 166,
+      "name": "LMBR_0000127_Plastic_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.06052665412425995,
+        0.08379193395376205
+      ],
+      "baseColor": "textures/baseColor_166.png",
+      "metallicRoughness": "textures/metallicRoughness_166.png"
+    },
+    {
+      "index": 169,
+      "name": "LMBR_000012c_Paris_Glass_Detailed_Foam_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0.9999998211860657
+      ],
+      "baseColor": "textures/baseColor_169.png",
+      "metallicRoughness": "textures/metallicRoughness_169.png"
+    },
+    {
+      "index": 170,
+      "name": "LMBR_000012d_Paris_Glass_Detailed_Liquid_01",
+      "size": [
+        512,
+        1024
+      ],
+      "metallic_range": [
+        0.5210735201835632,
+        0.5233809351921082
+      ],
+      "baseColor": "textures/baseColor_170.png",
+      "metallicRoughness": "textures/metallicRoughness_170.png"
+    },
+    {
+      "index": 171,
+      "name": "LMBR_0000131_Paris_Coasters_01",
+      "size": [
+        256,
+        256
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_171.png",
+      "metallicRoughness": "textures/metallicRoughness_171.png"
+    },
+    {
+      "index": 172,
+      "name": "LMBR_0000134_Paris_Table_cloth_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_172.png",
+      "metallicRoughness": "textures/metallicRoughness_172.png"
+    },
+    {
+      "index": 173,
+      "name": "LMBR_0000137_Rubber_Bar_Mat_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_173.png",
+      "metallicRoughness": "textures/metallicRoughness_173.png"
+    },
+    {
+      "index": 174,
+      "name": "LMBR_0000138_Plastic_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_174.png",
+      "metallicRoughness": "textures/metallicRoughness_174.png"
+    },
+    {
+      "index": 175,
+      "name": "LMBR_000013b_Mesh",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_175.png",
+      "metallicRoughness": "textures/metallicRoughness_175.png"
+    },
+    {
+      "index": 176,
+      "name": "LMBR_000013e_Metal_Chrome_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9774288535118103,
+        1
+      ],
+      "baseColor": "textures/baseColor_176.png",
+      "metallicRoughness": "textures/metallicRoughness_176.png"
+    },
+    {
+      "index": 178,
+      "name": "LMBR_0000146_Metal_Chrome",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9941079020500183,
+        0.9999998211860657
+      ],
+      "baseColor": "textures/baseColor_178.png",
+      "metallicRoughness": "textures/metallicRoughness_178.png"
+    },
+    {
+      "index": 179,
+      "name": "LMBR_0000148_Plastic_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.7513260841369629,
+        0.8045315742492676
+      ],
+      "baseColor": "textures/baseColor_179.png",
+      "metallicRoughness": "textures/metallicRoughness_179.png"
+    },
+    {
+      "index": 180,
+      "name": "LMBR_0000149_Wheels_01",
+      "size": [
+        4096,
+        2048
+      ],
+      "metallic_range": [
+        0.004429370164871216,
+        1
+      ],
+      "baseColor": "textures/baseColor_180.png",
+      "metallicRoughness": "textures/metallicRoughness_180.png"
+    },
+    {
+      "index": 181,
+      "name": "LMBR_0000147_Wood_Painted",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_181.png",
+      "metallicRoughness": "textures/metallicRoughness_181.png"
+    },
+    {
+      "index": 184,
+      "name": "LMBR_000014e_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9904935956001282,
+        1
+      ],
+      "baseColor": "textures/baseColor_184.png",
+      "metallicRoughness": "textures/metallicRoughness_184.png"
+    },
+    {
+      "index": 185,
+      "name": "LMBR_000014f_Cookies",
+      "size": [
+        2048,
+        1024
+      ],
+      "metallic_range": [
+        0.016996636986732483,
+        0.6037793755531311
+      ],
+      "baseColor": "textures/baseColor_185.png",
+      "metallicRoughness": "textures/metallicRoughness_185.png"
+    },
+    {
+      "index": 186,
+      "name": "LMBR_0000153_Metal_Base_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_186.png",
+      "metallicRoughness": "textures/metallicRoughness_186.png"
+    },
+    {
+      "index": 187,
+      "name": "LMBR_0000154_plants",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_187.png",
+      "metallicRoughness": "textures/metallicRoughness_187.png"
+    },
+    {
+      "index": 188,
+      "name": "LMBR_0000157_mesh",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_188.png",
+      "metallicRoughness": "textures/metallicRoughness_188.png"
+    },
+    {
+      "index": 189,
+      "name": "LMBR_0000158_Metal_Bronze_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_189.png",
+      "metallicRoughness": "textures/metallicRoughness_189.png"
+    },
+    {
+      "index": 191,
+      "name": "LMBR_000015c_main",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_191.png",
+      "metallicRoughness": "textures/metallicRoughness_191.png"
+    },
+    {
+      "index": 192,
+      "name": "LMBR_000015d_scarf",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_192.png",
+      "metallicRoughness": "textures/metallicRoughness_192.png"
+    },
+    {
+      "index": 193,
+      "name": "LMBR_0000162_Paris_Curbstones_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_193.png",
+      "metallicRoughness": "textures/metallicRoughness_193.png"
+    },
+    {
+      "index": 194,
+      "name": "LMBR_000016c_Cobblestone_Small_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_194.png",
+      "metallicRoughness": "textures/metallicRoughness_194.png"
+    },
+    {
+      "index": 195,
+      "name": "LMBR_000016b_Cobblestone_Big_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_195.png",
+      "metallicRoughness": "textures/metallicRoughness_195.png"
+    },
+    {
+      "index": 196,
+      "name": "LMBR_0000161_Pavement_Brick_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_196.png",
+      "metallicRoughness": "textures/metallicRoughness_196.png"
+    },
+    {
+      "index": 197,
+      "name": "LMBR_000016d_Pavement_Cobblestone_03",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_197.png",
+      "metallicRoughness": "textures/metallicRoughness_197.png"
+    },
+    {
+      "index": 198,
+      "name": "LMBR_0000165_Ground_Wet_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_198.png",
+      "metallicRoughness": "textures/metallicRoughness_198.png"
+    },
+    {
+      "index": 199,
+      "name": "LMBR_0000167_Manhole_Cover",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0.9120376706123352
+      ],
+      "baseColor": "textures/baseColor_199.png",
+      "metallicRoughness": "textures/metallicRoughness_199.png"
+    },
+    {
+      "index": 200,
+      "name": "LMBR_0000163_Cobblestone_02_Wet",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_200.png",
+      "metallicRoughness": "textures/metallicRoughness_200.png"
+    },
+    {
+      "index": 202,
+      "name": "LMBR_000016a_Cobble_01_Leaves",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_202.png",
+      "metallicRoughness": "textures/metallicRoughness_202.png"
+    },
+    {
+      "index": 203,
+      "name": "LMBR_0000160_Pavement_Cobblestone_01",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_203.png",
+      "metallicRoughness": "textures/metallicRoughness_203.png"
+    },
+    {
+      "index": 204,
+      "name": "LMBR_000016e_bricks_red_small",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_204.png",
+      "metallicRoughness": "textures/metallicRoughness_204.png"
+    },
+    {
+      "index": 205,
+      "name": "LMBR_000016f_concrete",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_205.png",
+      "metallicRoughness": "textures/metallicRoughness_205.png"
+    },
+    {
+      "index": 206,
+      "name": "LMBR_0000172_Paris_Streetpivot",
+      "size": [
+        1024,
+        512
+      ],
+      "metallic_range": [
+        0.8362938165664673,
+        0.9786304235458374
+      ],
+      "baseColor": "textures/baseColor_206.png",
+      "metallicRoughness": "textures/metallicRoughness_206.png"
+    },
+    {
+      "index": 207,
+      "name": "LMBR_000017b_leaf",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_207.png",
+      "metallicRoughness": "textures/metallicRoughness_207.png"
+    },
+    {
+      "index": 208,
+      "name": "LMBR_000017d_Paris_flowers",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_208.png",
+      "metallicRoughness": "textures/metallicRoughness_208.png"
+    },
+    {
+      "index": 209,
+      "name": "LMBR_0000180_leaf",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_209.png",
+      "metallicRoughness": "textures/metallicRoughness_209.png"
+    },
+    {
+      "index": 211,
+      "name": "LMBR_0000181_stone",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_211.png",
+      "metallicRoughness": "textures/metallicRoughness_211.png"
+    },
+    {
+      "index": 212,
+      "name": "LMBR_0000184_Paris_Wall_Light_Interior_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_212.png",
+      "metallicRoughness": "textures/metallicRoughness_212.png"
+    },
+    {
+      "index": 215,
+      "name": "LMBR_0000188_metal",
+      "size": [
+        4096,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_215.png",
+      "metallicRoughness": "textures/metallicRoughness_215.png"
+    },
+    {
+      "index": 216,
+      "name": "LMBR_000018b_bulb",
+      "size": [
+        256,
+        256
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_216.png",
+      "metallicRoughness": "textures/metallicRoughness_216.png"
+    },
+    {
+      "index": 217,
+      "name": "LMBR_000018c_support_bulb",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_217.png",
+      "metallicRoughness": "textures/metallicRoughness_217.png"
+    },
+    {
+      "index": 218,
+      "name": "LMBR_000018a_chains",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_218.png",
+      "metallicRoughness": "textures/metallicRoughness_218.png"
+    },
+    {
+      "index": 219,
+      "name": "LMBR_0000190_metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9919679164886475,
+        1
+      ],
+      "baseColor": "textures/baseColor_219.png",
+      "metallicRoughness": "textures/metallicRoughness_219.png"
+    },
+    {
+      "index": 220,
+      "name": "LMBR_0000192_bakery",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_220.png",
+      "metallicRoughness": "textures/metallicRoughness_220.png"
+    },
+    {
+      "index": 221,
+      "name": "LMBR_0000196_fixtures",
+      "size": [
+        256,
+        128
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_221.png",
+      "metallicRoughness": "textures/metallicRoughness_221.png"
+    },
+    {
+      "index": 222,
+      "name": "LMBR_000019c_Paris_StringLights_01_Yellow_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_222.png",
+      "metallicRoughness": "textures/metallicRoughness_222.png"
+    },
+    {
+      "index": 223,
+      "name": "LMBR_000019a_Paris_StringLights_01_Pink_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_223.png",
+      "metallicRoughness": "textures/metallicRoughness_223.png"
+    },
+    {
+      "index": 224,
+      "name": "LMBR_0000197_Paris_StringLights_01_Red_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_224.png",
+      "metallicRoughness": "textures/metallicRoughness_224.png"
+    },
+    {
+      "index": 225,
+      "name": "LMBR_0000199_Paris_StringLights_01_Green_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_225.png",
+      "metallicRoughness": "textures/metallicRoughness_225.png"
+    },
+    {
+      "index": 226,
+      "name": "LMBR_000019b_Paris_StringLights_01_Orange_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_226.png",
+      "metallicRoughness": "textures/metallicRoughness_226.png"
+    },
+    {
+      "index": 227,
+      "name": "LMBR_0000198_Paris_StringLights_01_Blue_Color",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_227.png",
+      "metallicRoughness": "textures/metallicRoughness_227.png"
+    },
+    {
+      "index": 228,
+      "name": "LMBR_000019f_Mesh",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_228.png",
+      "metallicRoughness": "textures/metallicRoughness_228.png"
+    },
+    {
+      "index": 229,
+      "name": "LMBR_00001a2_Mesh",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_229.png",
+      "metallicRoughness": "textures/metallicRoughness_229.png"
+    },
+    {
+      "index": 230,
+      "name": "LMBR_0000193_ties_shop",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_230.png",
+      "metallicRoughness": "textures/metallicRoughness_230.png"
+    },
+    {
+      "index": 231,
+      "name": "LMBR_00001a5_Paris_Ceiling_Lamp",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_231.png",
+      "metallicRoughness": "textures/metallicRoughness_231.png"
+    },
+    {
+      "index": 232,
+      "name": "LMBR_00001a8_Main",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_232.png",
+      "metallicRoughness": "textures/metallicRoughness_232.png"
+    },
+    {
+      "index": 233,
+      "name": "LMBR_00001a9_letters",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_233.png",
+      "metallicRoughness": "textures/metallicRoughness_233.png"
+    },
+    {
+      "index": 234,
+      "name": "LMBR_00001aa_Metal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0.9917948842048645,
+        1
+      ],
+      "baseColor": "textures/baseColor_234.png",
+      "metallicRoughness": "textures/metallicRoughness_234.png"
+    },
+    {
+      "index": 235,
+      "name": "LMBR_0000191_book_store",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_235.png",
+      "metallicRoughness": "textures/metallicRoughness_235.png"
+    },
+    {
+      "index": 236,
+      "name": "LMBR_00001af_Plaster",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_236.png",
+      "metallicRoughness": "textures/metallicRoughness_236.png"
+    },
+    {
+      "index": 237,
+      "name": "LMBR_00001ae_Wood",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_237.png",
+      "metallicRoughness": "textures/metallicRoughness_237.png"
+    },
+    {
+      "index": 238,
+      "name": "LMBR_00001b3_Wooden_stuco",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_238.png",
+      "metallicRoughness": "textures/metallicRoughness_238.png"
+    },
+    {
+      "index": 239,
+      "name": "LMBR_00001b4_Plaster_Red",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_239.png",
+      "metallicRoughness": "textures/metallicRoughness_239.png"
+    },
+    {
+      "index": 240,
+      "name": "LMBR_00001b5_Wood_painted_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_240.png",
+      "metallicRoughness": "textures/metallicRoughness_240.png"
+    },
+    {
+      "index": 241,
+      "name": "LMBR_00001b9_Grid",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        0.9030818939208984
+      ],
+      "baseColor": "textures/baseColor_241.png",
+      "metallicRoughness": "textures/metallicRoughness_241.png"
+    },
+    {
+      "index": 242,
+      "name": "LMBR_00001ad_Brushed_Metal",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0.9999998211860657,
+        1
+      ],
+      "baseColor": "textures/baseColor_242.png",
+      "metallicRoughness": "textures/metallicRoughness_242.png"
+    },
+    {
+      "index": 243,
+      "name": "LMBR_00001bd_Frozen_Glass",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        1,
+        1
+      ],
+      "baseColor": "textures/baseColor_243.png",
+      "metallicRoughness": "textures/metallicRoughness_243.png"
+    },
+    {
+      "index": 244,
+      "name": "LMBR_00001b0_Floor_Tile_Hexagonal",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_244.png",
+      "metallicRoughness": "textures/metallicRoughness_244.png"
+    },
+    {
+      "index": 246,
+      "name": "LMBR_00001b7_Paris_courtain_01a",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0.3208143711090088
+      ],
+      "baseColor": "textures/baseColor_246.png",
+      "metallicRoughness": "textures/metallicRoughness_246.png"
+    },
+    {
+      "index": 247,
+      "name": "LMBR_00001b6_Paris_courtain_01b",
+      "size": [
+        4096,
+        4096
+      ],
+      "metallic_range": [
+        0,
+        0.06750021129846573
+      ],
+      "baseColor": "textures/baseColor_247.png",
+      "metallicRoughness": "textures/metallicRoughness_247.png"
+    },
+    {
+      "index": 248,
+      "name": "LMBR_00001b1_Paris_Bartrim_01",
+      "size": [
+        2048,
+        2048
+      ],
+      "metallic_range": [
+        0,
+        0.9705804586410522
+      ],
+      "baseColor": "textures/baseColor_248.png",
+      "metallicRoughness": "textures/metallicRoughness_248.png"
+    },
+    {
+      "index": 249,
+      "name": "LMBR_00001b8_White_Plastic",
+      "size": [
+        64,
+        64
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_249.png",
+      "metallicRoughness": "textures/metallicRoughness_249.png"
+    },
+    {
+      "index": 250,
+      "name": "LMBR_00001ba_Paris_MenuSign_01",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_250.png",
+      "metallicRoughness": "textures/metallicRoughness_250.png"
+    },
+    {
+      "index": 251,
+      "name": "LMBR_00001bb_Paris_Lantern_01",
+      "size": [
+        512,
+        512
+      ],
+      "metallic_range": [
+        0,
+        1
+      ],
+      "baseColor": "textures/baseColor_251.png",
+      "metallicRoughness": "textures/metallicRoughness_251.png"
+    },
+    {
+      "index": 253,
+      "name": "LMBR_000018f_pharmacy_cross",
+      "size": [
+        1024,
+        1024
+      ],
+      "metallic_range": [
+        0,
+        0
+      ],
+      "baseColor": "textures/baseColor_253.png",
+      "metallicRoughness": "textures/metallicRoughness_253.png"
+    }
+  ],
+  "resampled_materials": [
+    {
+      "index": 2,
+      "source_sizes": [
+        [
+          4096,
+          4096
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "output_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "index": 5,
+      "source_sizes": [
+        [
+          4096,
+          4096
+        ],
+        [
+          2048,
+          2048
+        ]
+      ],
+      "output_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "index": 18,
+      "source_sizes": [
+        [
+          4096,
+          4096
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "output_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "index": 71,
+      "source_sizes": [
+        [
+          4096,
+          4096
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "output_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "index": 241,
+      "source_sizes": [
+        [
+          64,
+          64
+        ],
+        [
+          512,
+          512
+        ]
+      ],
+      "output_size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "images": 573,
+  "textures": 573,
+  "tangents": {
+    "rebuiltPrimitives": 43,
+    "removedUnusedTangentAttributes": 104,
+    "degenerateCornerFallbacks": 188
+  },
+  "geometry_unchanged": true,
+  "rendered_geometry_sha256": "acf498c8788a1adcf496a6888071332dc00106c73267cde118bce73950424a1b",
+  "source_files_unchanged": true,
+  "validation": {
+    "validator": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0,
+    "infos": 39,
+    "hints": 0
+  },
+  "output": {
+    "materials": 254,
+    "meshes": 551,
+    "nodes": 6006,
+    "animations": 8,
+    "images": 573,
+    "extensions": [
+      "KHR_lights_punctual",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_transmission"
+    ]
+  }
+}
