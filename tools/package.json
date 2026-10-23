@@ -1,0 +1,11 @@
+{
+  "name": "bistro-metalrough-conversion-tools",
+  "private": true,
+  "description": "Optional dependencies for regenerating and validating the Bistro asset",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "4.5.1"
+  }
+}
